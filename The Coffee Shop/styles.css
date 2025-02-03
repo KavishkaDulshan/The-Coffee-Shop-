@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("pics/bg.png") no-repeat center center fixed; /* Background image */
+  background-size: 50%; /* Make the background image smaller */
+  color: #ffffff; /* White text */
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.navbar {
+  background-color: #000; /* Black navbar */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* White shadow */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar:hover {
+  background-color: #111; /* Slightly lighter black */
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); /* White shadow */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* White text */
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  color: #fff; /* White text */
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* White background on hover */
+  border-radius: 5px;
+  color: #000; /* Black text on hover */
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #ccc; /* Light gray text */
+}
+
+.card {
+  background-color: #111; /* Dark gray card background */
+  color: #fff; /* White text */
+  transition: transform 0.2s, background-color 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #222; /* Slightly lighter gray on hover */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain; /* Ensure the image is fully visible */
+}
+
+.card-title {
+  color: #fff; /* White text */
+}
+
+.card-text {
+  color: #ccc; /* Light gray text */
+}
+
+.card-footer {
+  background-color: #111; /* Dark gray footer background */
+  color: #ccc; /* Light gray text */
+}
+
+.btn-primary {
+  background-color: #fff; /* White button */
+  color: #000; /* Black text */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ccc; /* Light gray button on hover */
+  color: #000; /* Black text */
+}
+
+.fc {
+  color: #ffffff; /* White text */
+}
+
+.header {
+  text-align: center;
+  padding: 100px 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.btn-custom {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+#services {
+  margin-top: 50px;
+}
+
+#services h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+#services .card {
+  margin-bottom: 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+}
+
+#services .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+#services .card-text {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+#services .card-img-top {
+  height: 200px;
+  object-fit: contain; /* Ensure the image is fully visible */
+}
+
+.card1:hover {
+  transform: scale(1.05);
+}
+
+.card1 {
+  transition: transform 0.2s;
+}
+
+.aboutimg {
+  border-radius: 10px;
+}
+
+.blogfc {
+  font-size: 40px;
+  color: #ffffff; /* White text */
+}
+
+.banner-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.incl {
+  color: #000000; /* White text */
+}
